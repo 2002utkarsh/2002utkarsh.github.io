@@ -1,0 +1,246 @@
+html body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    /* max-height: 100%; */
+    min-height: 100%;
+    position: relative;
+}
+
+#main{
+    overflow: auto;
+    padding-bottom: 30px;
+}
+#bottom{
+    
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgb(189, 189, 189);
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom:0%;
+    height: 30px;
+    margin-top: -30px;
+    clear: both;
+
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(200, 192, 192);
+}
+
+
+
+#top_line{
+    margin-top: 10px;
+    border-top-style: solid;
+    border-top-width: 3px;
+    background-color: rgb(217, 223, 223);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px;
+    text-align: center;
+    /* word-spacing: 20px; */
+    word-wrap: normal;
+    word-spacing: 20px;
+    color: rgb(202, 0, 238);
+
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(200, 192, 192);
+
+    /* important */
+
+
+    background-size: cover;
+}
+a:link{
+    color: rgb(113, 110, 110);
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(106, 104, 104);
+}
+a:hover{
+    color: rgb(6, 35, 124);
+    text-decoration: underline;
+}
+#left_side{
+    float: left;
+    width: 30%;
+    height: 100%;
+    border-right-style: solid;
+    border-right-width: 1.5px;
+    
+    border-right-color: rgb(150, 148, 148);
+    padding: 10px;
+    text-align: center;
+}
+.image{
+
+    border-radius: 50%;
+    width: 120px;
+    height: 20vh;
+    border: 1px solid rgb(150, 148, 148);
+}
+.name{
+    font-size: 20px;
+    color: rgb(69, 68, 68);
+    text-align: center;
+}
+.discription{
+    font-size: 15px;
+    color: rgb(92, 90, 90);
+    text-align: center;
+}
+.email{
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(164, 9, 231);
+    text-align: center;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 8, 8);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+
+#right_side{
+    float: right;
+    width: 60%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.page_head{
+    margin-top: 0px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(81, 80, 80);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-shadow: 1px 2px 1px;
+    line-height: 1.5;
+    padding: 2px;
+    background-size: cover;
+}
+
+/* .table_right{
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+} */
+
+.edutable{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#Crediantals{
+    color : rgb(145, 145, 145);
+
+}
+
+@media screen and (max-width: 600px) {
+    #top_line{
+        margin-top: 10px;
+        border-top-style: solid;
+        border-top-width: 3px;
+        background-color: rgb(217, 223, 223);
+        font-weight: bold;
+        font-size: 15px;
+        padding: 8px;
+        text-align: center;
+        word-spacing: 20px;
+        word-wrap: normal;
+        word-spacing: 10px;
+        color: rgb(202, 0, 238);
+    
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-bottom-color: rgb(200, 192, 192);
+    }
+
+
+    #left_side{
+        float: center;
+        width: 100%;
+        border-right: 0px;
+        
+        border-right-color: rgb(150, 148, 148);
+
+        /* height: 100%; */
+        border-bottom-style: solid;
+        border-bottom-width: 1.5px;
+        /* border-right-color: rgb(150, 148, 148); */
+        padding: 10px;
+        text-align: center;
+    }
+    .name{
+        font-size: 20px;
+        color: rgb(69, 68, 68);
+    }
+    .discription{
+        font-size: 15px;
+        color: rgb(92, 90, 90);
+    }
+    .email{
+        font-size: 10px;
+        font-weight: bold;
+        color: rgb(164, 9, 231);
+    }
+    
+
+    
+    #right_side{
+        text-align: left;
+        width: 95%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+    }  
+
+    .page_head{
+        margin-top: 0px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(81, 80, 80);
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 23px;
+        text-shadow: 1px 2px 1px;
+        line-height: 1.5;
+        padding: 1px;
+    }
+    #bottom{
+    
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-top-color: rgb(189, 189, 189);
+        background-color: rgb(247, 247, 247);
+        text-align: center;
+        position: relative;
+        width: 100%;
+    
+        height: 30px;
+        margin-top: -30px;
+        clear: both;
+    
+        border-bottom-width: 2px;
+        border-bottom-color: rgb(200, 192, 192);
+    }
+}
